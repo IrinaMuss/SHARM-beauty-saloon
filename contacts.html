@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Контакты</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220310163130">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__header header-header">
+					<a href="#" class="header-header__logo">
+						<img src="img/main-logo.jpg" alt="">
+					</a>
+					<div class="header-header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="home.html" class="menu__link">Главная</a></li>
+								<li class="menu__item"><a href="servises.html" class="menu__link">Услуги</a></li>
+								<li class="menu__item"><a href="school.html" class="menu__link">Обучение</a></li>
+								<li class="menu__item"><a href="contacts.html" class="menu__link">Контакты</a></li>
+							</ul>
+						</nav>
+						<button type="button" class="menu__icon icon-menu"><span></span></button>
+					</div>
+					<div data-da=".menu__body, 833.98" class="header-header__phone"><a href="tel:+79224052545">+7 922 405 25 45</a></div>
+
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<div class="contacts">
+				<div class="contacts__container_wide">
+					<div class="contacts__container">
+						<div class="contacts__top">
+							<div class="contacts__body ">
+								<div class="contacts__title main-title">Контакты</div>
+								<div class="contacts__item item-contact">
+									<div class="item-contact__name">Номер телефона</div>
+									<div class="item-contact__value">+7 922 405 25 45</div>
+								</div>
+								<div class="contacts__item item-contact">
+									<div class="item-contact__name">Адрес салона</div>
+									<div class="item-contact__value">г. Лангепас, ул. Комсомольская, 10</div>
+								</div>
+								<div class="contacts__item item-contact">
+									<div class="item-contact__name">Время работы</div>
+									<div class="item-contact__value">Ежедневно с 9:00 до 20:00</div>
+								</div>
+								<div class="contacts__item item-contact">
+									<div class="item-contact__name">Электронная почта</div>
+									<div class="item-contact__value">sharm.salon@gmail.com</div>
+								</div>
+								<div class="contacts__item item-contact">
+									<div class="item-contact__name">Мы в соцсетях</div>
+									<div class="item-contact__icons">
+										<a href="" class="social__item _icon-vk"></a>
+										<a href="" class="social__item social__item_purple _icon-insta"></a>
+										<a href="" class="social__item _icon-facebook"></a>
+									</div>
+								</div>
+								<div class="contacts__copy">@ 2020 SHARM Beauty studio Все права защищены</div>
+							</div>
+							<div class="contacts__map-ibg">
+								<img src="img/map.jpg" alt="card">
+							</div>
+						</div>
+						<div class="contacts__bottom">
+							<div class="footer__top"></div>
+							<div class="footer__bottom bottom-footer">
+								<a href="#" class="bottom-footer__logo">
+									<img src="img/main-logo.jpg" alt="">
+								</a>
+								<div data-da=".footer__top, 767.98" class="bottom-footer__menu menu-bottom">
+									<ul class="menu-bottom__list">
+										<li class="menu-bottom__item"><a href="home.html" class="menu-bottom__link">Главная</a></li>
+										<li class="menu-bottom__item"><a href="servises.html" class="menu-bottom__link">Услуги</a></li>
+										<li class="menu-bottom__item"><a href="school.html" class="menu-bottom__link">Обучение</a></li>
+										<li class="menu-bottom__item"><a href="contacts.html" class="menu-bottom__link">Контакты</a></li>
+									</ul>
+								</div>
+								<div class="bottom-footer__contacts">
+									<div class="bottom-footer__phone"><a href="tel:+79224052545">+7 922 405 25 45</a></div>
+									<div class="bottom-footer__work">Ежедневно с 10:00 до 20:00</div>
+								</div>
+							</div>
+						</div>
+						<div class="contacts__sharm">sharm</div>
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>
+
+	<div id="popup" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"></button>
+				<div class="popup__text">
+					<div class="bottom-form__top">
+						<h2 class="bottom-form__title main-title">Онлайн запись</h2>
+						<div class="bottom-form__text main-text">заполните фору для записи в салон</div>
+					</div>
+					<form data-dev class="bottom-form__form form" action="#">
+						<div class="form__line">
+							<input data-required autocomplete="off" type="text" name="form[]" data-error="не указано имя" placeholder="Имя" class="input">
+						</div>
+						<div class="form__line">
+							<input data-required autocomplete="off" type="tel" name="form[]" data-error="не указан номер телефона" placeholder="Телефон" class="input">
+						</div>
+						<div class="form__line">
+							<select data-speed="300" name="form[]" class="form">
+								<option value="" selected>Услуга</option>
+								<option value="1">Визаж</option>
+								<option value="2">Ногтевой сервис</option>
+								<option value="3">Депиляция</option>
+								<option value="4">Солярий</option>
+							</select>
+						</div>
+						<div class="form__line form__line-footer">
+							<div class="form__line-checkbox checkbox">
+								<input data-required checked id="pop" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+								<label for="pop" class="checkbox__label"><span class="checkbox__text">Даю согласие на обработку <br> персональных данных</span></label>
+							</div>
+							<button type="submit" class="form__line-button button button_dark">Отправить</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="js/app.min.js?_v=20220310163130"></script>
+</body>
+
+</html>
